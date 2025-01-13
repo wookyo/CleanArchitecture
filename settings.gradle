@@ -20,6 +20,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "CleanArchitectureApplication"
-include ':app'
+include ':presentation-layer'
 include ':data-layer'
 include ':domain-layer'
