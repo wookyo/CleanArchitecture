@@ -9,6 +9,13 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.3"
 constraintlayout = "2.2.0"
+rxkotlin = "2.4.0"
+koinCoreVersion = "2.1.5"
+roomVersion = "2.3.0"
+retrofitVersion = "2.7.2"
+gsonVersion = "2.4.0"
+okHttpVersion = "3.14.7"
+okhttp3InterceptorVersion = "3.4.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -20,8 +27,27 @@ material = { group = "com.google.android.material", name = "material", version.r
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 
+
+reactivex-rxjava2-rxkotlin = { group = "io.reactivex.rxjava2", name = "rxkotlin", version.ref = "rxkotlin" }
+koin-core = { group = "org.koin", name = "koin-core", version.ref = "koinCoreVersion" }
+
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+androidx-room-rxjava2 = { group = "androidx.room", name = "room-rxjava2", version.ref = "roomVersion" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
+
+retrofit2-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
+retrofit2-adapter-rxjava2 = { group = "com.squareup.retrofit2", name = "adapter-rxjava2", version.ref = "retrofitVersion" }
+retrofit2-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "gsonVersion" }
+
+squareup-okhttp3-okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHttpVersion" }
+squareup-okhttp3-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp3InterceptorVersion" }
+
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android-extensions = { id = "kotlin-android-extensions" }
+kotlin-kapt = { id = "kotlin-kapt" }
 
