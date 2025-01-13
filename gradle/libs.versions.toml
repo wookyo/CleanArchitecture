@@ -9,7 +9,7 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.3"
 constraintlayout = "2.2.0"
-rxkotlin = "2.4.0"
+rxkotlinVsersion = "2.4.0"
 koinCoreVersion = "2.1.5"
 roomVersion = "2.3.0"
 retrofitVersion = "2.7.2"
@@ -28,7 +28,7 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 
 
-reactivex-rxjava2-rxkotlin = { group = "io.reactivex.rxjava2", name = "rxkotlin", version.ref = "rxkotlin" }
+reactivex-rxjava2-rxkotlin = { group = "io.reactivex.rxjava2", name = "rxkotlin", version.ref = "rxkotlinVsersion" }
 koin-core = { group = "org.koin", name = "koin-core", version.ref = "koinCoreVersion" }
 
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
