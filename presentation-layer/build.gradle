@@ -33,6 +33,8 @@ android {
 }
 
 dependencies {
+    implementation project(":data-layer")
+    implementation project(':domain-layer')
 
     implementation libs.androidx.core.ktx
     implementation libs.androidx.appcompat
