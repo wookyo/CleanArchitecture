@@ -43,4 +43,8 @@ dependencies {
 
     // RxKotlin
     implementation libs.reactivex.rxjava2.rxkotlin
+
+    // hilt
+    implementation(libs.dagger.hilt)
+    kapt(libs.dagger.hilt.compiler)
 }

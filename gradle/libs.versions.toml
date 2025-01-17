@@ -17,6 +17,8 @@ gsonVersion = "2.4.0"
 okHttpVersion = "3.14.7"
 okhttp3InterceptorVersion = "3.4.2"
 hiltVersion = "2.50"
+serializationVersion = "1.5.0"
+serializationPlugin = "1.9.22"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -47,6 +49,7 @@ squareup-okhttp3-logging-interceptor = { group = "com.squareup.okhttp3", name = 
 dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltVersion" }
 dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hiltVersion" }
 
+kotlinx-serialize = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serializationVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
@@ -54,4 +57,6 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 kotlin-android-extensions = { id = "kotlin-android-extensions" }
 kotlin-kapt = { id = "kotlin-kapt" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "serializationVersion" }
+#kotlin-serialization = { id = "plugin.serialization", version.ref = "serializationPlugin" }
 
