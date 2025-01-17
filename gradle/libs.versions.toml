@@ -16,6 +16,7 @@ retrofitVersion = "2.7.2"
 gsonVersion = "2.4.0"
 okHttpVersion = "3.14.7"
 okhttp3InterceptorVersion = "3.4.2"
+hiltVersion = "2.50"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -42,6 +43,9 @@ retrofit2-converter-gson = { group = "com.squareup.retrofit2", name = "converter
 
 squareup-okhttp3-okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHttpVersion" }
 squareup-okhttp3-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp3InterceptorVersion" }
+
+dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltVersion" }
+dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hiltVersion" }
 
 
 [plugins]

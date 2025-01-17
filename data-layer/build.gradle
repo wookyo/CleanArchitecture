@@ -63,4 +63,8 @@ dependencies {
     // OkHttp
     implementation libs.squareup.okhttp3.okhttp
     implementation libs.squareup.okhttp3.logging.interceptor
+
+    // hilt
+    implementation(libs.dagger.hilt)
+    kapt(libs.dagger.hilt.compiler)
 }
