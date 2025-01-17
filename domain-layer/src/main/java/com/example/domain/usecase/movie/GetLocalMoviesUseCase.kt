@@ -1,7 +1,7 @@
 package com.example.domain.usecase.movie
 
-import com.example.domain.model.Movie
-import com.example.domain.repository.MovieRepository
+import com.example.domain.model.movie.Movie
+import com.example.domain.repository.movie.MovieRepository
 import io.reactivex.Flowable
 import javax.inject.Inject
 

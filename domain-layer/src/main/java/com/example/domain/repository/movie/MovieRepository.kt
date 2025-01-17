@@ -1,6 +1,6 @@
-package com.example.domain.repository
+package com.example.domain.repository.movie
 
-import com.example.domain.model.Movie
+import com.example.domain.model.movie.Movie
 import io.reactivex.Flowable
 import io.reactivex.Single
 import kotlinx.coroutines.flow.Flow

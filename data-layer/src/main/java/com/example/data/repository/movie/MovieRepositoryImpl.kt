@@ -3,8 +3,8 @@ package com.example.data.repository.movie
 import com.example.data.mapper.mapperToMovie
 import com.example.data.repository.movie.local.MovieLocalDataSource
 import com.example.data.repository.movie.remote.MovieRemoteDataSource
-import com.example.domain.model.Movie
-import com.example.domain.repository.MovieRepository
+import com.example.domain.model.movie.Movie
+import com.example.domain.repository.movie.MovieRepository
 import io.reactivex.Flowable
 import io.reactivex.Single
 import kotlinx.coroutines.flow.Flow

@@ -1,7 +1,7 @@
 package com.example.data.mapper
 
 import com.example.data.model.movie.MovieEntity
-import com.example.domain.model.Movie
+import com.example.domain.model.movie.Movie
 
 /**
  * Data Entity to Data Model

@@ -1,4 +1,4 @@
-package com.example.domain.model
+package com.example.domain.model.movie
 
 /**
  * 실제 사용하는 Data Class.
